@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>My Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <!-- Header -->
+  <header>
+    <nav>
+      <div class="logo">My Portfolio</div>
+      <div class="hamburger" onclick="toggleMenu()">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#portfolio" class="nav-link">My Work</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <div class="hero" id="home">
+    <div class="text-content">
+      <h1>Hello, I'm Sofonias Abera</h1>
+      <p>A student in the STEM incubation center passionate about coding and curious to explore technology.</p>
+      <button onclick="scrollToSection('portfolio')">View My Work</button>
+    </div>
+    <div class="image-content">
+      <img src="my_picture.jpg" alt="Hero Image" />
+    </div>
+  </div>
+
+  <!-- Section Divider between Home and About -->
+  <div class="section-divider"></div>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Me</h2>
+    <img src="my_picture.jpg" alt="Profile Picture" />
+    <p>
+      I am a passionate and dedicated individual with a strong academic background from the STEM Center in Bahirdar, Ethiopia.
+      At 17 years old, I am deeply committed to personal growth and academic excellence. I have a keen interest in video editing,
+      web development, and cryptocurrency, and I am focused on building a meaningful future. My goal is to study abroad and acquire
+      diverse skills that will allow me to contribute creatively and effectively. With a proactive mindset and determination,
+      I am always eager to take on challenges and create impactful solutions.
+    </p>
+  </section>
+
+  <!-- Section Divider -->
+  <div class="section-divider"></div>
+
+  <!-- Skills Section -->
+  <section id="skills" class="skills">
+    <h2>My Skills</h2>
+    <div class="flashcards">
+      <div class="flashcard">
+        <img src="problem solving.jfif" alt="Problem Solving" />
+        <p>Problem Solving</p>
+      </div>
+      <div class="flashcard">
+        <img src= "Communictaion.jpg" alt="Communication" />
+        <p>Communication</p>
+      </div>
+      <div class="flashcard">
+        <img src="Leadership.jpg" alt="Leadership" />
+        <p>Leadership</p>
+      </div>
+      <div class="flashcard">
+        <img src="CSharp.jfif" alt="C#" />
+        <p>C#</p>
+      </div>
+      <div class="flashcard">
+        <img src="HTML.jfif" alt="HTML" />
+        <p>HTML</p>
+      </div>
+      <div class="flashcard">
+        <img src="css@2x.png" alt="CSS" />
+        <p>CSS</p>
+      </div>
+      <div class="flashcard">
+        <img src="C++.jpg" alt="C++" />
+        <p>C++</p>
+      </div>
+      <div class="flashcard">
+        <img src="Python-Logo-Vector.png" alt="Python" />
+        <p>Python</p>
+      </div>
+      <div class="flashcard">
+        <img src="Video Editing.jpg" alt="Video Editing" />
+        <p>Video Editing</p>
+      </div>
+      <div class="flashcard">
+        <img src="Js.jfif" alt="JavaScript" />
+        <p>JavaScript</p>
+      </div>
+      <div class="flashcard">
+        <img src="Data Science.jpg" alt="Data Analysis" />
+        <p>Data Analysis</p>
+      </div>
+      <div class="flashcard">
+        <img src="Full stalk dev.jpg" alt="Full Stack Development" />
+        <p>Full Stack Development</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section Divider -->
+  <div class="section-divider"></div>
+
+  <!-- Portfolio Section -->
+  <section id="portfolio">
+    <h2>My Work</h2>
+    <div class="portfolio-items">
+      <div class="portfolio-item">
+        <img src="AI.jfif" alt="Work 1" />
+        <p class="portfolio-description">I made a computer software who can measure water oxyher level by using AI datas.</p>
+      </div>
+      <div class="portfolio-item">
+        <img src="Heart beat.jfif" alt="Work 2" />
+        <p class="portfolio-description">I made an AI model which predicts and suggests exercised for individuals with heart disease.</p>
+      </div>
+      <div class="portfolio-item">
+        <img src="revenue.jpg" alt="Work 3" />
+        <p class="portfolio-description">I made a revenue management system for charity company called Mekedonya.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section Divider -->
+  <div class="section-divider"></div>
+
+  <!-- Footer Section -->
+  <div class="footer">
+    <h3>Contact Me</h3>
+    <p>Feel free to reach out to me through the following:</p>
+    <ul style="list-style: none; padding: 0;">
+      <li>Email: <a href="mailto:sofoniasabera1@gmail.com">sofoniasabera1@gmail.com</a></li>
+    </ul>
+    <div class="rights">
+      &copy; 2025 Sofonias Abera. All Rights Reserved.
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
